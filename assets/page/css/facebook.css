@@ -1,0 +1,20 @@
+.myfb-container {
+    position: fixed;
+    top: 150px;
+    right: -500px;
+    z-index: 200;
+    display: none;
+}
+
+.myfb-container .myfb-left {
+    width: 40px;
+    margin-left: -40px;
+    float: left;
+}
+
+.myfb-container .myfb-handler {
+    cursor: pointer;
+    text-indent: -5000px;
+    background: url(../img/facebook-slider.png) no-repeat top right;
+    height: 142px;
+}

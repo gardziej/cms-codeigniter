@@ -1,0 +1,68 @@
+/*-------------impromptu---------- */
+.jqifade{ position: absolute; background-color: #aaaaaa; }
+div.jqi{ width: 600px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; position: absolute; background-color: #ffffff; font-size: 11px; text-align: left; border: 0; box-shadow: 5px 5px 8px; }
+div.jqi .jqicontainer{ font-weight: bold; }
+div.jqi .jqiclose{ color: white !important; position: absolute; font-size: 20px; top: 0px; right: 4px; width: 18px; font-weight: bold; cursor: pointer;}
+div.jqi .jqimessage{ padding: 0 0px; color: #444444; }
+div.jqi .jqimessage h2 { margin-bottom: 10px; }
+
+div.jqi .jqibuttons{ text-align: right; padding: 5px 0 5px 0; border: solid 1px #eeeeee; background-color: #f4f4f4; }
+div.jqi button{ padding: 3px 10px; margin: 0 10px; background-color: #2F6073; border: solid 1px #f4f4f4; color: #ffffff; font-weight: bold; font-size: 12px; cursor: pointer; }
+div.jqi button:hover{ background-color: #728A8C; }
+div.jqi button.jqidefaultbutton{ background-color: #049d01; }
+.jqiwarning .jqi .jqibuttons{ background-color: #BF5E26; }
+
+div.jqi h1 {
+text-align: center;
+font-size: 18px;
+margin: 0px 0 10px;
+padding: 0px !important;
+background-color:#337ab7;
+line-height: 30px;
+color: white;
+}
+
+
+div.jqi table {
+margin: 0 auto 10px;
+}
+
+div.jqi form input {
+width: 190px;
+}
+
+div.jqi form input[type=text] {
+padding: 2px 5px;
+}
+
+div.jqi form input[type=color] {
+height: 28px;
+}
+
+div.jqi form label {
+display: inline-block;
+width: 33%;
+text-align: right;
+padding-right: 20px;
+}
+
+div.jqi p {
+text-align: justify;
+font-size: 14px;
+line-height: 18px;
+font-weight: normal;
+margin-bottom: 10px;
+}
+
+div.jqi p a {
+color: #049d01;
+text-decoration: none;
+}
+
+div.jqi p a:hover {
+color: #cc1130;
+text-decoration: underline;
+}
+
+
+/*-------------------------------- */

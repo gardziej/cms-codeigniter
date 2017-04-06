@@ -1,0 +1,32 @@
+#tooltip {
+position:absolute;
+background:white !important;
+padding:5px 15px !important;
+display:none;
+font-size: 11px;
+width: 120px !important;
+border: 1px solid #b3b3b3;
+border-radius: 10px;
+box-shadow: 2px 2px 11px #666;
+text-align: center;
+}
+
+
+/*  */
+
+#hov{
+position:absolute;
+border:1px solid #ccc;
+background:#019297;
+padding:5px;
+display:none;
+color:#fff;
+max-width: 310px;
+text-align: center;
+}
+
+#hov img {
+max-width: 300px;
+}
+
+/*  */

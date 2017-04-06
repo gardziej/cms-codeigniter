@@ -1,0 +1,28 @@
+a:3:{s:4:"time";i:1479141741;s:3:"ttl";i:60;s:4:"data";a:2:{i:1;a:3:{i:0;s:387:"<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>";i:1;s:432:"<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>";i:2;s:178:"<!-- Umieść ten tag w nagłówku lub tuż przed tagiem zamykającym treść. -->
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'pl'}
+</script>
+";}i:2;a:1:{i:0;s:535:"<div class="myfb-container"><div class="myfb-left"><div class="myfb-handler">facebook</div></div><div class="fb-page" data-href="https://www.facebook.com/NaszeSlubicePL/" data-height="300" data-width="500" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/NaszeSlubicePL/"><a href="https://www.facebook.com/NaszeSlubicePL/">powiatslubicki24.pl</a></blockquote></div></div></div>";}}}
