@@ -2,7 +2,7 @@
 
 if (isSet($page['leading_photo']))
     {
-        echo '<article class="col-lg-6 col-md-6 col-sm-12 col-xs-12 article-box';
+        echo '<article class="col-lg-6 col-md-6 col-sm-12 col-xs-12 article-box article-'.$class;
 
         if (isSet($page['traits']['cats'])) foreach ($page['traits']['cats'] AS $c)
             {

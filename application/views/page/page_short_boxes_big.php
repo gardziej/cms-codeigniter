@@ -1,5 +1,5 @@
 <?php
-        echo '<article class="col-lg-12 col-md-12 col-sm-12 col-xs-12 article-box_big';
+        echo '<article class="col-lg-12 col-md-12 col-sm-12 col-xs-12 article-box_big article-'.$class;
 
         if (isSet($page['traits']['cats'])) foreach ($page['traits']['cats'] AS $c)
             {

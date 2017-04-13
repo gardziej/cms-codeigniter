@@ -740,12 +740,7 @@ font-weight: bold;
   padding: 0 10px;
 }
 
-.article-box_big:nth-child(even) .tekst {
-
-}
-
-
-.article-box_big:nth-child(odd) a.leading_photo_anchor {
+.article-odd a.leading_photo_anchor {
   float: right;
   width: 30%;
   margin: 0 0 0 10px;
@@ -753,7 +748,7 @@ font-weight: bold;
   display: inline-block;
 }
 
-.article-box_big:nth-child(even) a.leading_photo_anchor {
+.article-even a.leading_photo_anchor {
   float: left;
   width: 30%;
   margin: 0 10px 0 0 ;

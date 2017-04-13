@@ -58,22 +58,22 @@ if (isSet($categories['list']))
 
     foreach ($categories['list'] AS $f)
         {
-
+            $class = $k % 2 ? 'even' : 'odd';
             switch ($categories['view']) {
                 case '0':
-                    $this->load->view('page/page_short', array('page' => $f));
+                    $this->load->view('page/page_short', array('page' => $f, 'class' => $class));
                     break;
                 case '1':
-                    $this->load->view('page/page_short_leading_photo', array('page' => $f));
+                    $this->load->view('page/page_short_leading_photo', array('page' => $f, 'class' => $class));
                     break;
                 case '2':
-                    $this->load->view('page/page_short_boxes', array('page' => $f));
+                    $this->load->view('page/page_short_boxes', array('page' => $f, 'class' => $class));
                     break;
                 case '3':
-                    $this->load->view('page/page_short_boxes_big', array('page' => $f));
+                    $this->load->view('page/page_short_boxes_big', array('page' => $f, 'class' => $class));
                     break;
                 default:
-                    $this->load->view('page/page_short', array('page' => $f));
+                    $this->load->view('page/page_short', array('page' => $f, 'class' => $class));
                     break;
             }
 
@@ -83,7 +83,6 @@ if (isSet($categories['list']))
                     if (($k+1) % $this->cfg->get('banners_in_article_step') == 0)
                         {
                             $banners_pack = $banners[250];
-                            //echo "<pre>"; print_r($banners_pack); echo "</pre><hr>"; exit;
                             foreach ($banners_pack AS $key => $v)
                                 {
                                     if (!empty( $v['cat_only']) && !in_array($categories['id_trait'], $v['cat_only']))
